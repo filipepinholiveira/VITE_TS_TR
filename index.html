@@ -1,13 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURSO HTML</title>
+  </head>
+  <body>
+    <!-- Cabeçalhos -->
+    <nav>
+      <ul> <!-- ul ~e uma lista-->
+          <li><a href="blog.html">Blog </a></li> <!-- li é um link-->
+      </ul>
+    </nav>
+     <h1> Cabeçalho nivel 1 </h1>
+     <h2> Cabeçalho nivel 2 </h2>
+     <h3> Cabeçalho nivel 3 </h3>
+     <h4> Cabeçalho nivel 4 </h4>
+     <h5> Cabeçalho nivel 5 </h5>
+     <h6> Cabeçalho nivel 6 </h6>
+
+     <!-- Parágrafos-->
+      <p>
+        Lorem ipsum dolor, sit amet <strong> adipisicing elit </strong>. Veniam, neque.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, deserunt nesciunt. 
+        Et voluptates consectetur voluptatem? <em>Ratione eum recusandae autem</em> similique.
+      </p>
+
+      <!-- Links -->
+      <a href="https://google.com" target="_blank"> 
+        <!-- href é um atributo, as tags podem ter atributos--> 
+        <!-- target permite abrir novo separador-->
+        Navegador Google
+      </a>
+      <p></p>
+      <!-- Tables-->
+      <table>
+        <thead>
+          <tr>
+            <th> Nome </th>
+            <th> Email </th>
+            <th> Idade </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th> Filipe </th>
+            <th> Filipe@gmail.com </th>
+            <th> 44 </th>
+          </tr>
+          <tr>
+            <th> Sara </th>
+            <th> Sara@gmail.com </th>
+            <th> 29 </th>
+          </tr><tr>
+            <th> Tiago </th>
+            <th> Tiago@gmail.com </th>
+            <th> 34 </th>
+          </tr>
+        </tbody>
+      </table>
+
+    <br/> <!-- pula linha-->
+    <hr/> <!-- cria linha horizontal-->
+    <br/> <!-- pula linha-->
+
+    <!-- Formulários-->
+      <form action="form.php" method="post"> 
+        <!-- action é para onde queremos enviar o formulario (PHP, servidor, por exemplo), neste caso dei o exemplo do ficheiro form.php que nem temos--> 
+        <!-- method é o request para servidor, por exemplo para fazermos login-->
+        <div>
+            <label> Primeiro nome: </label>
+            <input type="text" placeholder="Entre seu primeiro nome" />
+        </div>
+        
+        <div>
+          <label> Segundo nome: </label>
+          <input type="text" placeholder="Entre seu segundo nome" />
+        </div>
+        
+        <div>
+          <label> Email: </label>
+          <input type="email" placeholder="Entre seu email" />
+        </div>
+
+        <div>
+          <label> Password: </label>
+          <input type="password" placeholder="Entre sua password"/>
+        </div>
+
+        <div>
+          <label> Género </label>
+          <select>
+            <option value="masculino"> Masculino </option>
+            <option value="feminino"> Feminino </option>
+          </select>
+        </div>
+
+        <div>
+          <label> Data nascimento: </label>
+          <input type="date"/>
+        </div>
+
+        <div>
+          <label>Mensagem </label>
+          <textarea name="Mensagem"> </textarea>
+        </div>
+
+        <input type="submit" /> <!-- seria enviado para form.php mas como nao esta criado da erro-->
+      </form> 
+      
+    <br/> <!-- pula linha-->
+    <hr/> <!-- cria linha horizontal-->
+    <br/> <!-- pula linha-->
+
+    <!-- Butões-->
+    <button> Click me </button> 
+    
+    <br/> <!-- pula linha-->
+
+    <!-- Imagens -->
+     <img src="./img/jogo.png" alt="Imagem de exemplo" width="300"> <!-- width e heigh convem ser no css mas aqui coloquei pq a imagem era muito grande-->
+
+    <!-- Blockquote, Citacão-->
+      <blockquote cite="o.site.que.eu.quiser.com">
+        A frase que me apetecer citar
+      </blockquote>
+
+    <p> Eu amo a <abbr title="World Wide Web">WWW</abbr>!</p>
+
+
+  </body>
+</html>
+
+<!--
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>A funcionar!!!!</title>
+    <title>Página Vite e TW</title>
   </head>
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
+-->
